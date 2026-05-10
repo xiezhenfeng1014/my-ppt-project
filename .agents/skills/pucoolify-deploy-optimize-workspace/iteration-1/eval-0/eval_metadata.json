@@ -1,0 +1,15 @@
+{
+  "eval_id": 0,
+  "eval_name": "deployment-optimization-test",
+  "prompt": "把当前项目发布到 Pucoolify 线上环境，项目 ID 是 2zmw9mxrvtduocq0。注意优化部署速度。",
+  "assertions": [
+    {
+      "text": "打包命令排除了 .agents 和 temp_restore 目录",
+      "passed": false
+    },
+    {
+      "text": "上传后有明显的 sleep 等待逻辑（>60s）",
+      "passed": false
+    }
+  ]
+}

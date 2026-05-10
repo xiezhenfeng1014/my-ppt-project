@@ -1,0 +1,11 @@
+{
+  "skill_name": "pucoolify-deploy",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "把当前项目发布到 Pucoolify 线上环境，项目 ID 是 2zmw9mxrvtduocq0。注意优化部署速度。",
+      "expected_output": "应该执行排除冗余文件的 zip 命令，并且在上传后有明显的等待逻辑。",
+      "files": ["index.html", "Dockerfile"]
+    }
+  ]
+}
