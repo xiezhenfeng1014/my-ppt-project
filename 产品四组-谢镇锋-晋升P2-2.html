@@ -930,47 +930,113 @@
                     <h1 class="text-[56px] font-black tracking-tight text-slate-900 leading-none center">个人信息-基础信息</h1>
                 </div>
 
-                <div class="mx-auto max-w-[1400px] border border-slate-400">
-                    <table class="w-full border-collapse table-fixed bg-white">
-                        <tbody>
-                            <tr class="h-[90px]">
-                                <td class="w-1/4 border border-slate-400 text-center text-[40px] font-black text-black">姓名</td>
-                                <td class="w-1/4 border border-slate-400 text-center text-[30px] font-bold text-black">谢镇锋</td>
-                                <td class="w-1/4 border border-slate-400 text-center text-[40px] font-black text-black">部门</td>
-                                <td class="w-1/4 border border-slate-400 text-center text-[30px] font-bold text-black">产品四组</td>
-                            </tr>
-                            <tr class="h-[90px]">
-                                <td class="border border-slate-400 text-center text-[40px] font-black text-black">岗位</td>
-                                <td class="border border-slate-400 text-center text-[30px] font-bold text-black">产品经理</td>
-                                <td class="border border-slate-400 text-center text-[40px] font-black text-black">直接上级</td>
-                                <td class="border border-slate-400 text-center text-[30px] font-bold text-black">郑学彬</td>
-                            </tr>
-                            <tr class="h-[80px]">
-                                <td class="border border-slate-400 text-center text-[40px] font-black text-black">毕业学校</td>
-                                <td class="border border-slate-400 text-center text-[30px] font-bold text-black">福州大学</td>
-                                <td class="border border-slate-400 text-center text-[40px] font-black text-black">毕业时间</td>
-                                <td class="border border-slate-400 text-center text-[30px] font-bold text-black">2019年</td>
-                            </tr>
-                            <tr class="h-[80px]">
-                                <td class="border border-slate-400 text-center text-[40px] font-black text-black">最高学历</td>
-                                <td class="border border-slate-400 text-center text-[30px] font-bold text-black">本科</td>
-                                <td class="border border-slate-400 text-center text-[40px] font-black text-black">专业</td>
-                                <td class="border border-slate-400 text-center text-[30px] font-bold text-black">电子商务</td>
-                            </tr>
-                            <tr class="h-[80px]">
-                                <td class="border border-slate-400 text-center text-[40px] font-black text-black">入职日期</td>
-                                <td class="border border-slate-400 text-center text-[30px] font-bold text-black">2022年5月9日</td>
-                                <td class="border border-slate-400 text-center text-[40px] font-black text-black">上一次晋升日期</td>
-                                <td class="border border-slate-400 text-center text-[30px] font-bold text-red-600">2023年5月</td>
-                            </tr>
-                            <tr class="h-[80px]">
-                                <td class="border border-slate-400 text-center text-[40px] font-black text-red-600">现职级</td>
-                                <td class="border border-slate-400 text-center text-[30px] font-bold text-red-600">2-1</td>
-                                <td class="border border-slate-400 text-center text-[40px] font-black text-red-600">申请职级</td>
-                                <td class="border border-slate-400 text-center text-[30px] font-bold text-red-600">2-2</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="mx-auto max-w-[1400px]">
+                    <div class="grid grid-cols-2 gap-x-12 gap-y-6">
+                        <!-- Basic Rows -->
+                        <div class="flex items-center bg-slate-50/50 rounded-2xl p-2 border border-slate-100 shadow-sm hover:shadow-md transition-all duration-300">
+                            <div class="w-1/3 bg-brand/10 rounded-xl py-6 text-center">
+                                <span class="text-[28px] font-black text-brand tracking-widest">姓名</span>
+                            </div>
+                            <div class="flex-1 px-8">
+                                <span class="text-[36px] font-black text-slate-800">谢镇锋</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center bg-slate-50/50 rounded-2xl p-2 border border-slate-100 shadow-sm hover:shadow-md transition-all duration-300">
+                            <div class="w-1/3 bg-brand/10 rounded-xl py-6 text-center">
+                                <span class="text-[28px] font-black text-brand tracking-widest">部门</span>
+                            </div>
+                            <div class="flex-1 px-8">
+                                <span class="text-[36px] font-black text-slate-800">产品四组</span>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center bg-slate-50/50 rounded-2xl p-2 border border-slate-100 shadow-sm hover:shadow-md transition-all duration-300">
+                            <div class="w-1/3 bg-brand/10 rounded-xl py-6 text-center">
+                                <span class="text-[28px] font-black text-brand tracking-widest">岗位</span>
+                            </div>
+                            <div class="flex-1 px-8">
+                                <span class="text-[36px] font-black text-slate-800">产品经理</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center bg-slate-50/50 rounded-2xl p-2 border border-slate-100 shadow-sm hover:shadow-md transition-all duration-300">
+                            <div class="w-1/3 bg-brand/10 rounded-xl py-6 text-center">
+                                <span class="text-[28px] font-black text-brand tracking-widest">直接上级</span>
+                            </div>
+                            <div class="flex-1 px-8">
+                                <span class="text-[36px] font-black text-slate-800">郑学彬</span>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center bg-slate-50/50 rounded-2xl p-2 border border-slate-100 shadow-sm hover:shadow-md transition-all duration-300">
+                            <div class="w-1/3 bg-brand/10 rounded-xl py-6 text-center">
+                                <span class="text-[28px] font-black text-brand tracking-widest">毕业学校</span>
+                            </div>
+                            <div class="flex-1 px-8">
+                                <span class="text-[36px] font-black text-slate-800">福州大学</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center bg-slate-50/50 rounded-2xl p-2 border border-slate-100 shadow-sm hover:shadow-md transition-all duration-300">
+                            <div class="w-1/3 bg-brand/10 rounded-xl py-6 text-center">
+                                <span class="text-[28px] font-black text-brand tracking-widest">毕业时间</span>
+                            </div>
+                            <div class="flex-1 px-8">
+                                <span class="text-[36px] font-black text-slate-800">2019年</span>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center bg-slate-50/50 rounded-2xl p-2 border border-slate-100 shadow-sm hover:shadow-md transition-all duration-300">
+                            <div class="w-1/3 bg-brand/10 rounded-xl py-6 text-center">
+                                <span class="text-[28px] font-black text-brand tracking-widest">最高学历</span>
+                            </div>
+                            <div class="flex-1 px-8">
+                                <span class="text-[36px] font-black text-slate-800">本科</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center bg-slate-50/50 rounded-2xl p-2 border border-slate-100 shadow-sm hover:shadow-md transition-all duration-300">
+                            <div class="w-1/3 bg-brand/10 rounded-xl py-6 text-center">
+                                <span class="text-[28px] font-black text-brand tracking-widest">专业</span>
+                            </div>
+                            <div class="flex-1 px-8">
+                                <span class="text-[36px] font-black text-slate-800">电子商务</span>
+                            </div>
+                        </div>
+
+                        <!-- Highlight Rows -->
+                        <div class="flex items-center bg-slate-50/50 rounded-2xl p-2 border border-slate-100 shadow-sm hover:shadow-md transition-all duration-300">
+                            <div class="w-1/3 bg-brand/10 rounded-xl py-6 text-center">
+                                <span class="text-[28px] font-black text-brand tracking-widest">入职日期</span>
+                            </div>
+                            <div class="flex-1 px-8">
+                                <span class="text-[36px] font-black text-slate-800">2022年5月9日</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center bg-red-50/30 rounded-2xl p-2 border border-red-100 shadow-sm hover:shadow-md transition-all duration-300">
+                            <div class="w-1/3 bg-red-100/50 rounded-xl py-6 text-center">
+                                <span class="text-[24px] font-black text-red-600 leading-tight">上一次<br>晋升日期</span>
+                            </div>
+                            <div class="flex-1 px-8">
+                                <span class="text-[36px] font-black text-red-600">2023年5月</span>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center bg-red-50/30 rounded-2xl p-2 border border-red-100 shadow-sm hover:shadow-md transition-all duration-300">
+                            <div class="w-1/3 bg-red-100/50 rounded-xl py-6 text-center">
+                                <span class="text-[28px] font-black text-red-600 tracking-widest">现职级</span>
+                            </div>
+                            <div class="flex-1 px-8">
+                                <span class="text-[42px] font-black text-red-600">2-1</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center bg-red-600 rounded-2xl p-2 border border-red-700 shadow-lg shadow-red-200 hover:scale-[1.02] transition-all duration-300 group">
+                            <div class="w-1/3 bg-white/20 rounded-xl py-6 text-center">
+                                <span class="text-[28px] font-black text-white tracking-widest">申请职级</span>
+                            </div>
+                            <div class="flex-1 px-8 flex items-baseline gap-2">
+                                <span class="text-[48px] font-black text-white">2-2</span>
+                                <span class="text-white/80 text-[20px] font-bold">Promotion</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
